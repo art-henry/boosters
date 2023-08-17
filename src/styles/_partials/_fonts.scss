@@ -1,0 +1,42 @@
+/*
+Layout: none
+*/
+@font-face {
+  font-family: "Inter UI";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/Inter-Regular.woff2?v={{font_v}}") format("woff2"),
+    url("../fonts/Inter-Regular.woff?v={{font_v}}") format("woff");
+}
+
+@font-face {
+  font-family: "Inter UI";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/Inter-Medium.woff2?v={{font_v}}") format("woff2"),
+    url("../fonts/Inter-Medium.woff?v={{font_v}}") format("woff");
+}
+
+@font-face {
+  font-family: "Inter UI";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/Inter-SemiBold.woff2?v={{font_v}}") format("woff2"),
+    url("../fonts/Inter-SemiBold.woff?v={{font_v}}") format("woff");
+}
+
+@font-face {
+  font-family: "Inter UI";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/Inter-Bold.woff2?v={{font_v}}") format("woff2"),
+    url("../fonts/Inter-Bold.woff?v={{font_v}}") format("woff");
+}
+
+@font-face {
+  font-family: "Inter UI";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/Inter-Black.woff2?v={{font_v}}") format("woff2"),
+    url("../fonts/Inter-Black.woff?v={{font_v}}") format("woff");
+}

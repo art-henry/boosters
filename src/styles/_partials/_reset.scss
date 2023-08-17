@@ -1,0 +1,61 @@
+/* _reset.scss */
+
+/* Box-sizing reset */
+
+* {
+  font-family: "Inter UI", sans-serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Margin and padding reset */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+figure,
+blockquote,
+fieldset,
+legend {
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography reset */
+body {
+  line-height: 1.5;
+}
+
+/* List reset */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Link reset */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Form element reset */
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+}

@@ -1,0 +1,16 @@
+@import "./_partials/reset";
+@import "./_partials/fonts";
+@import "./_partials/fontawesome.min";
+@import "./_partials/variables";
+@import "./_partials/helpers";
+@import "./_partials/buttons";
+
+body {
+  background-color: #110f1a;
+  display: inline-flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
