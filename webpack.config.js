@@ -10,7 +10,7 @@ module.exports = (env, options) => {
 
   return {
     mode: isProduction ? "production" : "development", // Доданий режим
-    entry: "./src/index.js",
+    entry: "./src/scripts/app.js",
     output: {
       filename: "bundle.js",
       path: path.resolve(__dirname, "../dist"),
@@ -32,7 +32,7 @@ module.exports = (env, options) => {
       new CopyWebpackPlugin({
         patterns: [
           { from: "src/images", to: "images" },
-          // { from: "src/fonts", to: "fonts" },
+          { from: "src/fonts", to: "fonts" },
         ],
       }),
     ],
